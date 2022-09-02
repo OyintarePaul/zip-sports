@@ -1,0 +1,127 @@
+html, body {
+
+	overflow-x: hidden;}
+
+#header {
+
+	background-image: url("../images/football3-bg.jpg");
+
+	height: 700px;
+
+	background-repeat: no-repeat;
+
+	background-size: cover;
+
+}
+
+.heading {
+
+	text-align: center;	
+
+	color: white;
+
+}
+
+.logo {
+
+	margin-top: 3rem;
+
+}
+
+.heading h1 {
+
+	margin-top: 2.5rem;
+
+	margin-bottom: 0;
+
+	font-size: 5rem;
+
+}
+
+.icon-text {
+
+	position: relative;
+
+	top: -5px;
+
+}
+
+.heading p {
+
+	margin-top: 0;
+
+	font-size: 1.5rem;
+
+}
+
+.cover {
+
+	aspect-ratio: 2/1;
+
+}
+
+.cover img {
+
+	object-fit: cover;
+
+}
+
+.article-footer {
+
+	margin: 0;
+
+	background-color: inherit;
+
+	border: none;
+
+}
+
+.article-footer button {
+
+	display: inline-block;
+
+	width: 48%;
+
+	border: 1px solid cornflowerblue;
+
+	background-color: transparent;
+
+	border-radius: 2rem;
+
+	color: cornflowerblue;
+
+}
+
+.tab-bar {
+
+	position: fixed;
+
+	width: 100%;
+
+	bottom: 0;
+
+	left: 0;
+
+	background-color: #fff;
+
+}
+
+.tab-bar button {
+
+	width: 25%;
+
+	padding: 15px 20px;	
+
+	background-color: #fff;
+
+	border: none;
+
+	text-align: center;
+
+}
+
+.tab-bar button.active {
+
+	color: cornflowerblue;
+
+}
