@@ -1,0 +1,120 @@
+html {
+	--primary-color: #8180aa;
+	--secondary-color: red;
+}
+
+html, body {
+	overflow-x: hidden;
+	font-family: montserrat;
+}
+
+.heading {
+	text-align: center;	
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.logo {
+	margin-top: 3rem;
+}
+.heading h1 {
+	margin-bottom: 0;
+	font-size: 5rem;
+	font-family: dancing-script;
+}
+
+.heading p {
+	margin-top: 0;
+	font-size: 1.5rem;
+}
+
+.icon-text {
+	position: relative;
+	top: -6px;
+}
+
+.article-footer * {
+	color: var(--primary-color) !important;
+}
+
+.cover {
+	aspect-ratio: 2/1;
+}
+
+
+.cover img {
+	object-fit: cover;
+}
+
+.tab-bar {
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	z-index: 500;
+}
+.tab-bar button {
+	background-color: transparent;
+	display: inline-block;
+	border: none;
+	width: 24.2%;
+	margin-bottom: 8px;
+}
+
+.tab-bar span {
+	position: relative;
+	top: -10px;
+}
+
+.tab-bar button.active {
+	color: var(--primary-color) !important;
+}
+
+.nav-active {
+	border-top: 4px solid cornflowerblue;
+	border-bottom: 4px solid cornflowerblue;
+	color: cornflowerblue !important;
+}
+
+.page-title {
+	position: absolute;
+	left: 0;
+	z-index: 100;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	font-size: 4rem;
+}
+
+.league-title {
+	color: var(--primary-color) !important;
+}
+
+.sidenav li.active {
+	background-color: var(--primary-color) !important;
+}
+
+.right-bar {
+	margin-left: 30%;
+	background-color: transparent;
+}
+
+.right-bar button {
+	background-color: transparent;
+	display: inline-block;
+	border: none;
+	color: white;
+	width: 150px;
+}
+
+.right-bar span {
+	position: relative;
+	top: -10px;
+}
+
+.right-bar button.active {
+	color: var(--secondary-color) !important;
+	border-bottom: 4px solid var(--secondary-color);
+}
+
+
